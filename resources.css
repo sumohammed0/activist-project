@@ -1,0 +1,42 @@
+
+.page-header-action {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #BBDEFB;
+ 
+}
+.flex-container-action {
+  display: flex;
+
+  position: absolute;
+  padding: 0.5em 0;
+  align-items: center;
+
+  left: 5%;
+  right: 5%;
+
+  margin: 5% 0;
+  width: 90%;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+}
+.action-info-containe {
+  width: 100%;
+  margin-right: 5%;
+  margin-left: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 35px;
+  font-size: 16px;
+  flex-grow: 2;
+}
+.vid { 
+display: flex;
+  justify-content: center;
+}
+
